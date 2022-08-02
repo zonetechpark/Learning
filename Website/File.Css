@@ -3,3 +3,4 @@
 .dash{border:1px; border-color:rgb(29,71,56); border-style:double;border-width:12px;border-top-color:red; width:20px;}
 .test1{text-decoration-line: underline;
     text-decoration-color: blue;font-family:"Painter";}
+.mytable,.mytable th,.mytable td{border:2px dotted;border-color:#b0e0e6;color:#FFC0CB;}

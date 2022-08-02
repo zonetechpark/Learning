@@ -1,0 +1,12 @@
+.header {
+    padding: 20px 0px;
+    background:#ffffff;
+    color: #000000;
+ }
+.header-6-left span{margin:5px 5px}
+.header-6-right span{margin:5px 5px; text-align:right;}
+.header-6-right{padding-left: 15rem;}
+.header-6-left {padding-left: 4rem;}
+.header-button{background-color: #583bb6;
+    border-color: #583bb6;
+    color: #fff;border-radius: 50px; font-size: 12px;width:12rem;}
