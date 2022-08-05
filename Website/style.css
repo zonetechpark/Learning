@@ -9,7 +9,8 @@
   position: fixed;
   top: 0;
   width: 100%;
-    z-index: 200
+    z-index: 200;
+      overflow: hidden;
 }
 
 .header-6-left {
@@ -56,12 +57,14 @@ navbar
 
 .navbar{
     overflow: hidden;
-  top: 13%; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
     position: fixed;
       background-color: #fff !important;
     border-top:1px solid #eee;
    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  z-index: 200;
+    top: 0;
+    margin-top: 5rem;
 }
 .pad-left{
     padding-left: 3rem;
@@ -212,12 +215,59 @@ width: 100%;
     border:2px solid #333;
     padding:16px 32px
 }
+
+
 .img-wrapper-3{
     position: relative;
      text-align: center;
-     background-image: url('Images/banner.png');
+     background-image: url('Images/banner-1.png');
      background-repeat: no-repeat;
       background-size: auto;
-      height:350px;}
+      height:350px;
+}
 .form-group{padding: 0px 25rem;
 margin-right: 20px;}
+
+.img-overlay-3 h2{
+    font-size: 50px;
+    color:#fff;  
+    padding-bottom: 30px;
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.img-overlay-3{
+    padding:50px 20px
+}
+.img-overlay-3 .btn{
+    background: #fff;
+    padding:14px 22px
+}
+
+#email-form-group input{background-color: rgba(256,256,256,0.5);
+    border:none;
+
+
+}
+.banner-3{
+    padding-top: 60px;
+}
+.final{
+    background-color:rgba(51,51,51,0.05);
+    padding-top: 50px;
+    margin-top: 70px;
+}
+.powered-by-zyro.com{
+    font-size: 10px;
+    
+}
