@@ -3,9 +3,9 @@
     max-width: 95%;
     margin:0 auto;
     padding: 0 16px;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
     border-bottom:20;
-    border-top: #000;
+    border-top: #000000;
     
 
 
@@ -74,10 +74,8 @@
     overflow-wrap: break-word;
 }
 .topbar2{
-    max-width: 95%;
-    margin:0 auto;
-    padding: 0 16px;
-    border-bottom:1;
+    margin:0 0 0 40px;
+    color: #1a1a1a;
     
 
 
@@ -92,8 +90,50 @@
 }
 .topbar2-right{
     padding-left: 26rem;
+   font-style:  "DM Sans", sans-serif;
 
 }
 .optionsbar{
     padding:2rem;
 }
+.section1{
+    padding-bottom: 5rem;
+}
+.img-wrapper {
+    position: relative;
+       text-align: center;
+       background-image: url('Images/Rectangle-YZ9P6kWjMnUBNL6W.webp');
+       background-repeat: no-repeat;
+        background-size: auto;
+        height:400px
+  }
+  .img-wrapper img {
+    left: 0;
+    top: 0;
+  }
+  .img-overlay {
+    color: white;
+     position: absolute;
+    top: 40%;
+    left: 0%;
+      margin:  auto;
+    width:100%
+  }
+  .img-overlay h2{
+    font-family:"Poppins Light";
+    font-size:7rem;
+  }
+  .mt-2{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+  }
+.section2{
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+  #section2-header{
+    text-align: center;
+    padding-left: 33rem;
+    padding-bottom: 3rem;
+  }
+  
