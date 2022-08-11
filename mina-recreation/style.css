@@ -97,25 +97,12 @@
     padding:2rem;
 }
 .section1{
-    --content-width: 1600px;
-    --grid-width: 1224px;
-    --column-count: 12;
-    --content-padding: 16px;
-    --rows: 12;
-    --row-gap: 16px;
-    --row-size: 48px;
-    --column-gap: 24px;
-    --block-padding-top: 16px;
-    --block-padding: 16px 0;
-    --block-padding-right: 0;
-    --block-padding-bottom: 16px;
-    --block-padding-left: 0;
-    --m-block-padding: 56px 16px 56px 16px;
     position: relative;
     display: grid;
     grid-template-rows: 100%;
     grid-template-columns: 100%;
     width: 100%;
+    height: 100%;
     min-width: 100%;
 }
 .img-wrapper{
@@ -124,7 +111,7 @@
     background-image: url('Images/Rectangle-YZ9P6kWjMnUBNL6W.webp');
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 700px;
+    height: 630px;
   }
   .img-wrapper img {
     left: 0;
@@ -140,7 +127,7 @@
   }
   .img-overlay h2{
     font-family:"Poppins Light";
-    font-size:7rem;
+    font-size:6rem;
   }
   .mt-2{
     font-family: 'DM Sans';
@@ -161,6 +148,7 @@
     font-family: 'Poppins Light';
   }
 .section2{
+    padding-top: 2rem;
     padding-bottom: 6rem;
     position: relative;
     width: 100%;
@@ -170,7 +158,7 @@
   #section2-header{
     text-align: center;
     padding-left: 33rem;
-    padding-bottom: 3rem;
+    padding-bottom: 4.5rem;
     color: #4d2c57;
   }
   .img-wrapper-2{
@@ -181,25 +169,91 @@
      background-size: 100%;
      height: 700px;  
   }
+  .button2{
+    background-color: white;
+    border: 2px solid;
+    border-color: #4d2c57;
+    color: #4d2c57;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    border-radius: 0px;
+    padding: 14px 40px;
+    font-family: 'Poppins Light';
+  }
+  .goods{
+    font-family: "Poppins Medium";
+    color: #4d2c57;
+    padding-left: 60px;
+
+  }
+  .cost{
+    font-family: "Poppins ExtraLight";
+    color: #4d2c57;
+    margin-top: 20px;
+    padding-left: 6rem;
+  }
   .section3{
-    --content-width: 1600px;
-    --grid-width: 1224px;
-    --column-count: 12;
-    --content-padding: 16px;
-    --rows: 13;
-    --row-gap: 16px;
-    --row-size: 48px;
-    --column-gap: 24px;
-    --block-padding-top: 0px;
-    --block-padding: 0px 0 0px 0;
-    --block-padding-right: 0;
-    --block-padding-bottom: 0px;
-    --block-padding-left: 0;
-    --m-block-padding: 56px 16px 56px 16px;
     position: relative;
     display: grid;
     grid-template-rows: 100%;
     grid-template-columns: 100%;
     width: 100%;
     min-width: 100%;
+    padding-bottom: 5rem;
   }
+
+  .section4{
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+  }
+  .section4.img-height {
+    height: 100%;
+    width:100%;
+    font-size: 32px;
+  }
+  .bigheader{
+    font-family: "Poppins Medium";
+    color: #4d2c57;
+  }
+.smallheader{
+    font-family: "DM Sans";
+    font-size: 20px; 
+}
+.img-wrapper-3{
+    position: relative;
+    text-align: center;
+    background-image: url('Images/sign\ up\ for\ news.webp');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 700px;
+}
+
+
+
+#email-form-group{
+   margin:0px 27rem;
+
+   
+}
+#exampleInputEmail1{
+    background: rgba(245,248,251,.6);
+    border-radius: 0%;
+    width: 100%;
+    height: 48px;
+    padding: 20px 60px 20px 20px;
+    border:none;
+    font-family: "DM Sans"; 
+}
+.final{
+    background-color: rgba(1,1,1,0.04);
+    
+
+
+}
