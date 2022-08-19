@@ -65,7 +65,7 @@
     cursor: pointer;
     border-radius: 0px;
     padding: 5px 5px;
-    font-family: 'Poppins Light';
+    font-family: "DM Sans";
   }
 .fa-circle{
     color: #ffdf01;
@@ -109,12 +109,11 @@ border-left-color:rgba(250,250,250,255) ;
 border-right-color:rgba(214,214,214,255) ;
 margin:0;
 height: 100px;
-width:130px;
-padding:10px 20px;
-box-shadow: 1px 1px 0px 0px #e6e6e6;
+width:180px;
+padding:10px 40px;
 }
 .level1, .level2, .level3{
-padding-left: 10rem;
+padding-left: 130px;
 }
 
 .levels{
@@ -128,7 +127,43 @@ padding-left: 10rem;
 }
 .section2 h3{
 font-family: "Hind";
-padding-left: 20rem;
+color: rgba(67,67,67,255);
+padding-left: 30rem;
 padding-top:3rem;
 padding-bottom: 2rem;
+}
+.bottom-banner img{
+    width: 100%;
+}
+.final-banner{
+    background: url("Images/Screenshot\ 2022-08-17\ at\ 13.09.39.png");
+    color:#eeeeee;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom:4rem;
+}
+.final-banner ul{
+    list-style: square inside url("Icons/free_icon_1.svg");
+    font-size: 10px;
+}
+.case img{
+    width:20px;
+    height:auto;
+}
+.circle1{
+    display: inline-block;
+ overflow: none;
+ border-radius: 50%;
+ background-color: white;
+ padding:5px;
+ margin:0;
+ margin-top: 0;
+}
+.case2 img{
+
+    height:30px;
+}
+.case1 img{
+    width:20px;
+
 }
