@@ -145,6 +145,7 @@ padding-bottom: 2rem;
 .final-banner ul{
     list-style: square inside url("Icons/free_icon_1.svg");
     font-size: 10px;
+
 }
 .case img{
     width:20px;
@@ -155,15 +156,51 @@ padding-bottom: 2rem;
  overflow: none;
  border-radius: 50%;
  background-color: white;
- padding:5px;
+ padding:1%;
  margin:0;
  margin-top: 0;
+}
+.case2{
+    padding-left:60px;
 }
 .case2 img{
 
     height:30px;
 }
 .case1 img{
-    width:20px;
+    width:10px;
 
 }
+.header h3{
+    font-size: 20px;
+}
+.header1{
+    padding-bottom: 2rem;
+    padding-left: 40px;
+}
+.case3{
+    font-size: 10px;
+}
+.end-banner{
+    background: url("Images/Screenshot\ 2022-08-17\ at\ 13.07.27.png");
+    padding-top:2rem;
+    padding-left: 10rem;
+    color:#eeeeee;
+
+}
+.form-control{
+    margin-right:60rem;
+}
+#email-form-group{
+ 
+    
+ }
+ #exampleInputEmail1{
+     background: rgba(245,248,251,.6);
+     border-radius: 0%;
+     width: 100%;
+     height: 48px;
+     padding: 20px 60px 20px 20px;
+     border:none;
+     font-family: "DM Sans"; 
+ }
