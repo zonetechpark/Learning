@@ -204,8 +204,10 @@ padding-bottom: 2rem;
 #button-addon2{
   color: black;
   background-color: #eeeeee;
+  font-size: 10px;
+ }
+ #placeholder{
+    font-size: 10px;
  }
  
- .end-banner ul li{
-    display: inline;
- }
+ 
