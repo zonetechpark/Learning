@@ -89,9 +89,18 @@
 
 }
 .topbar2-right{
-    padding-left: 26rem;
    font-style:  "DM Sans", sans-serif;
 
+}
+@media screen and ( max-width: 480px){
+.topbar2-right ul li{
+display: block;
+}
+
+  
+}
+.topbar2-right ul li{
+  display: inline;
 }
 .optionsbar{
     padding:2rem;
@@ -265,4 +274,18 @@
   
 
 
+}
+.optionsbar a{
+  color: #000000;
+  text-decoration:none;
+}
+
+
+#logo a{
+  color: #000000;
+  text-decoration: none;
+}
+.x a{
+  color: #000000;
+  text-decoration:underline;
 }
